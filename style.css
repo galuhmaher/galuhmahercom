@@ -1,0 +1,73 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+/* Style navigation bar */
+.navbar {
+    background-color: #fff;
+    width: 100%;
+    margin: 5px 0;
+    border-bottom: 1px solid red;
+  }
+  
+  .navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .navbar ul li {
+    display:inline-block;
+  }
+  
+  .navbar ul li a {
+    display: block;
+    color: #000;
+    text-align: center;
+    padding: 14px 10px;
+    text-decoration: none;
+  }
+  
+  .navbar ul li a:hover {
+    background-color: #b61e1e;
+    color: #fff;
+  }
+  
+  /* Style header */
+  .header {
+    background-color: none;
+    margin: 20px 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px; /* atur tinggi sesuai kebutuhan */
+    /* optional: untuk membuatnya lebih rapi */
+  }
+
+  .img-header {
+    margin: 5px 0;
+    width: 800px;
+    height: auto;
+  }
+  
+  /* Style content */
+  .playlist-spotify {
+    margin: 5px auto;
+    width: 640px;
+    align-content: center;
+  }
+  
+  /* Style footer */
+  .footer {
+    background-color: #fff;
+    color: #000;
+    text-align: center;
+    padding: 20px;
+  }
+
+  .footer a {
+    color: #000;
+    text-decoration: none;
+  }
+  

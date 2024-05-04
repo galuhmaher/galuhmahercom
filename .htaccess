@@ -1,1 +1,1 @@
-Redirect 301 "/blog/index.html" "https://www.galuhmaher.com/"
+Redirect 301 /blog/index.html https://www.galuhmaher.com/
